@@ -1,0 +1,21 @@
+2022-10-15T12:16:26.048946600Z 2022-10-15 12:16:26 [info     ] cohortextractor-stats          [cohortextractor.log_utils] description=generate_cohort index_date=all state=started study_definition=study_definition time=21398.364579374 timing=start timing_id=0
+2022-10-15T12:16:26.049006100Z 2022-10-15 12:16:26 [info     ] Generating cohort for study_definition in output [cohortextractor.log_utils] 
+2022-10-15T12:16:26.054912000Z 2022-10-15 12:16:26 [info     ] cohortextractor-stats          [cohortextractor.log_utils] output_column_count=3 table_count=2 table_joins_count=1
+2022-10-15T12:16:26.054954100Z 2022-10-15 12:16:26 [info     ] cohortextractor-stats          [cohortextractor.log_utils] variable_count=2
+2022-10-15T12:16:26.055379200Z 2022-10-15 12:16:26 [info     ] cohortextractor-stats          [cohortextractor.log_utils] variables_using_codelist_count=0
+2022-10-15T12:16:26.055413000Z 2022-10-15 12:16:26 [info     ] cohortextractor-stats          [cohortextractor.log_utils] index_date_count=0
+2022-10-15T12:16:26.056032900Z 2022-10-15 12:16:26 [info     ] cohortextractor-stats          [cohortextractor.log_utils] description=generate_cohort state=started study_definition=study_definition time=21398.371676874 timing=start timing_id=1
+2022-10-15T12:16:26.147114000Z 2022-10-15 12:16:26 [info     ] Successfully created cohort and covariates at output/input.csv [cohortextractor.log_utils] 
+2022-10-15T12:16:26.147162300Z 2022-10-15 12:16:26 [info     ] cohortextractor-stats          [cohortextractor.log_utils] description=generate_cohort execution_time=0:00:00.091454 execution_time_secs=0.09145369999896502 state=ok study_definition=study_definition time=21398.463130574 timing=stop timing_id=1
+2022-10-15T12:16:26.147954200Z 2022-10-15 12:16:26 [info     ] cohortextractor-stats          [cohortextractor.log_utils] description=generate_cohort execution_time=0:00:00.098736 execution_time_secs=0.0987356000005093 index_date=all state=ok study_definition=study_definition time=21398.463314974 timing=stop timing_id=0
+
+
+job_id: ct4kd3thumbpd3yg
+job_request_id: 8941e5886a
+docker_image_id: sha256:fea611fad0259ff469a8d402227fff434bd38be34153ade85f758e900331511d
+exit_code: 0
+created_at: 1665836047
+completed_at: 1665836188
+
+outputs:
+  output/input.csv  - highly_sensitive
